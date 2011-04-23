@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: AppleAPNSCmdProvider
+Bundle-SymbolicName: AppleAPNSCmdProvider
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: de.irf.communication.apple.apns,
+ org.eclipse.osgi.framework.console
+Service-Component: OSGI-INF/APNSCmd.xml
